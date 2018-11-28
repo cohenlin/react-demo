@@ -1,0 +1,29 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ],
+    "linebreak-style": "off",
+    "prettier/prettier": "error",
+    "react/prefer-stateless-function": "off",
+    "no-undef": "off",
+    "no-use-before-define": "off",
+    "no-param-reassign": "off",
+    "arrow-parens": "off"
+  },
+  "parser": "babel-eslint",
+  "plugins": [
+    "react",
+    "prettier"
+  ]
+}
